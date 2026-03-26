@@ -4,7 +4,7 @@ export default function AboutInfoStrip() {
       <div className="info-item">
         <span className="label">focus</span>
         <span className="value">
-          Olimpyade Informatics, Web Development, Teaching, Photography
+          Olimpyad Informatics, Web Development, Teaching, Photography
         </span>
       </div>
 

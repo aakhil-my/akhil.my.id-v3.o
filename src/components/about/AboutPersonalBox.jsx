@@ -12,7 +12,7 @@ export default function AboutPersonalBox() {
         </div>
 
         <div className="about-personal-item">
-          <span className="about-personal-key">Residence</span>
+          <span className="about-personal-key">Location</span>
           <span className="about-personal-value">Jambi, Indonesia</span>
         </div>
 
