@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { initGlobalScripts } from "./scripts/global";
 
-// import IndexRedirect from "./pages/IndexRedirects";
+
 import MainPage from "./pages/MainPage";
 import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
@@ -14,6 +14,7 @@ import InstagramPage from "./pages/InstagramPage";
 import GithubPage from "./pages/GithubPage";
 import LinkedinPage from "./pages/LinkedinPage";
 import MailPage from "./pages/MailPage";
+import IndexRedirect from "./pages/IndexRedirect";
 
 function AppContent() {
   useEffect(() => {
@@ -23,7 +24,6 @@ function AppContent() {
 
   return (
     <Routes>
-      {/* <Route path="/" element={<IndexRedirects />} /> */}
       <Route path="/main" element={<MainPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/resume" element={<ResumePage />} />
@@ -35,6 +35,7 @@ function AppContent() {
       <Route path="/github" element={<GithubPage />} />
       <Route path="/linkedin" element={<LinkedinPage />} />
       <Route path="/mail" element={<MailPage />} />
+      <Route path="/" element={<IndexRedirect />} />
     </Routes>
   );
 }
