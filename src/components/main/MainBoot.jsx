@@ -1,4 +1,4 @@
-export default function MainBoot() {
+export default function MainBoot({ progress, status }) {
   return (
     <div className="main-boot-page" id="mainBootPage" aria-hidden="true">
       <div className="main-boot-noise"></div>
@@ -10,22 +10,18 @@ export default function MainBoot() {
       </div>
 
       <div className="main-boot-panel">
-        <div className="main-boot-count" id="mainBootCount">
-          0
-        </div>
+        <div className="main-boot-count">{progress}</div>
 
         <div className="main-boot-progress-wrap">
           <div className="main-boot-progress-track">
             <span
               className="main-boot-progress-fill"
-              id="mainBootProgress"
+              style={{ width: `${progress}%` }}
             ></span>
           </div>
         </div>
 
-        <div className="main-boot-status" id="mainBootStatus">
-          GILANG AKHIL AZZAM / INITIALIZING MAIN SIGNAL
-        </div>
+        <div className="main-boot-status">{status}</div>
       </div>
     </div>
   );

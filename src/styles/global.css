@@ -2537,3 +2537,9 @@ body.cursor-hover .cursor-follower {
     width: min(88vw, 320px);
   }
 }
+
+body.is-main-ready .main-boot-page {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
