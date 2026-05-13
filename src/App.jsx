@@ -15,6 +15,7 @@ import GithubPage from "./pages/GithubPage";
 import LinkedinPage from "./pages/LinkedinPage";
 import MailPage from "./pages/MailPage";
 import IndexRedirect from "./pages/IndexRedirect";
+import OngoingProjectPage from "./pages/OngoingProjectPage";
 
 function AppContent() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function AppContent() {
       <Route path="/linkedin" element={<LinkedinPage />} />
       <Route path="/mail" element={<MailPage />} />
       <Route path="/" element={<IndexRedirect />} />
+      <Route path="/ongoingproject" element={<OngoingProjectPage />} />
     </Routes>
   );
 }
