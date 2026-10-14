@@ -8,32 +8,32 @@ import ProjectIntro from "../components/project/ProjectIntro";
 import ProjectGrid from "../components/project/ProjectGrid";
 
 const projects = [
+    {
+    path: "projects/investigate-us",
+    title: "Education App | Game",
+    description: "Education App",
+    tags: ["Next JS", "CSS", "JavaScript", "Responsive UI"],
+    liveDemo: "https://investigateus.com",
+    github: "https://github.com/akhil-my",
+    detail: "https://investigateus.com/",
+  },
+    {
+    path: "projects/ivora",
+    title: "Startup",
+    description: "Startup Akhil",
+    tags: ["Nextjs", "CSS", "JavaScript", "Responsive UI"],
+    liveDemo: "https://ivora.id",
+    github: "https://github.com/akhil-my",
+    detail: "https://ivora.id/",
+  },
   {
     path: "projects/nirantara-sagara",
     title: "School Organization",
     description: "Website school organization.",
     tags: ["HTML", "CSS", "JavaScript", "Responsive UI"],
-    liveDemo: "https://osislima.netlify.app",
+    liveDemo: "https://osislima.web.id",
     github: "https://github.com/akhil-my/mpk-osis-nirantara-sagara",
     detail: "https://osislima.netlify.app/detail",
-  },
-  {
-    path: "projects/gallery-nirantara-sagara",
-    title: "School Organization Gallery",
-    description: "Website gallery school organization.",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive UI"],
-    liveDemo: "https://osislima.netlify.app/gallery",
-    github: "https://github.com/akhil-my/mpk-osis-nirantara-sagara",
-    detail: "https://osislima.netlify.app/gallery",
-  },
-  {
-    path: "projects/student-aspiration",
-    title: "Student Aspiration",
-    description: "Website for student aspiration platform.",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive UI"],
-    liveDemo: "https://osislima.netlify.app/aspirasi",
-    github: "https://github.com/akhil-my/mpk-osis-nirantara-sagara",
-    detail: "https://osislima.netlify.app/aspirasi",
   },
 ];
 
